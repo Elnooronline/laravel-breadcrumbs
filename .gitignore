@@ -1,4 +1,5 @@
 # PHP packages
+.idea
 /composer.lock
 /vendor/
 

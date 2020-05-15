@@ -810,7 +810,7 @@ class MyServiceProvider extends ServiceProvider
 You can use [dependency injection](https://laravel.com/docs/5.5/providers#the-boot-method) to access the `BreadcrumbsManager` instance if you prefer, instead of using the `Breadcrumbs::` facade:
 
 ```php
-use DaveJamesMiller\Breadcrumbs\BreadcrumbsManager;
+use Elnooronline\Breadcrumbs\BreadcrumbsManager;
 use Illuminate\Support\ServiceProvider;
 
 class MyServiceProvider extends ServiceProvider
@@ -852,10 +852,10 @@ For more advanced customisations you can subclass BreadcrumbsManager and/or Brea
 
 ```php
     // Manager
-    'manager-class' => DaveJamesMiller\Breadcrumbs\BreadcrumbsManager::class,
+    'manager-class' => Elnooronline\Breadcrumbs\BreadcrumbsManager::class,
 
     // Generator
-    'generator-class' => DaveJamesMiller\Breadcrumbs\BreadcrumbsGenerator::class,
+    'generator-class' => Elnooronline\Breadcrumbs\BreadcrumbsGenerator::class,
 ```
 
 (**Note:** Anything that's not part of the public API (see below) may change between releases, so I suggest you write unit tests to ensure it doesn't break when upgrading.)
@@ -894,7 +894,7 @@ For more advanced customisations you can subclass BreadcrumbsManager and/or Brea
 
 ```php
 use App\Models\Post;
-use DaveJamesMiller\Breadcrumbs\BreadcrumbsGenerator;
+use Elnooronline\Breadcrumbs\BreadcrumbsGenerator;
 
 Breadcrumbs::before(function (BreadcrumbsGenerator $trail) {
     // ...

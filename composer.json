@@ -1,10 +1,10 @@
 {
-    "name": "davejamesmiller/laravel-breadcrumbs",
-    "description": "A simple Laravel-style way to create breadcrumbs.",
+    "name": "elnooronline/laravel-breadcrumbs",
+    "description": "A simple Laravel-style way to create breadcrumbs. forked from 'davejamesmiller/laravel-breadcrumbs'",
     "keywords": [
         "laravel"
     ],
-    "homepage": "https://github.com/davejamesmiller/laravel-breadcrumbs",
+    "homepage": "https://github.com/elnooronline/laravel-breadcrumbs",
     "authors": [
         {
             "name": "Dave James Miller",
@@ -27,7 +27,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "DaveJamesMiller\\Breadcrumbs\\": "classes/"
+            "Elnooronline\\Breadcrumbs\\": "classes/"
         }
     },
     "autoload-dev": {
@@ -39,10 +39,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DaveJamesMiller\\Breadcrumbs\\BreadcrumbsServiceProvider"
+                "Elnooronline\\Breadcrumbs\\BreadcrumbsServiceProvider"
             ],
             "aliases": {
-                "Breadcrumbs": "DaveJamesMiller\\Breadcrumbs\\Facades\\Breadcrumbs"
+                "Breadcrumbs": "Elnooronline\\Breadcrumbs\\Facades\\Breadcrumbs"
             }
         }
     }

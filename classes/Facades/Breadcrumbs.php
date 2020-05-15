@@ -1,8 +1,8 @@
 <?php
 
-namespace DaveJamesMiller\Breadcrumbs\Facades;
+namespace Elnooronline\Breadcrumbs\Facades;
 
-use DaveJamesMiller\Breadcrumbs\BreadcrumbsManager;
+use Elnooronline\Breadcrumbs\BreadcrumbsManager;
 use Illuminate\Support\Facades\Facade;
 
 /**

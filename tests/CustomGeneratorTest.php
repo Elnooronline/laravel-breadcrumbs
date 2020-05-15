@@ -4,7 +4,7 @@ namespace BreadcrumbsTests;
 
 use Breadcrumbs;
 use Config;
-use DaveJamesMiller\Breadcrumbs\BreadcrumbsGenerator;
+use Elnooronline\Breadcrumbs\BreadcrumbsGenerator;
 use Illuminate\Support\Collection;
 use Route;
 use URL;
